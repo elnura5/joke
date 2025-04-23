@@ -2,12 +2,16 @@ const jokeEl = document.getElementById('joke');
 const jokeBtn = document.getElementById('jokeBtn');
 
 const jokes = [
-  "Oğlum: Ata, mənə WiFi parolunu verərsən? Ata: Əvvəl otağını yığışdır.",
-  "Ata: Oğlum, bu nə səsdir? Oğul: Caz musiqisidir. Ata: Onda televizoru səssiz et!",
-  "Niyə kompyuter donur? Çünki çox pəncərə açılıb!",
-  "İki pomidor yolda gedirmiş. Biri demiş: – Hara tələsirsən? O biri: – Ketçap olmağa!",
-  "Ən gülməli zarafat nədir? Ata zarafatıdır – çünki özünə gülür!",
-  "Qız: Ata, bu oğlan məni sevir. Ata: Mən də sənin ananı sevirdim... indi nəticəni görürsən."
+  "Pul su kimi axır, amma kran mənim əlimdə deyil.",
+    "Sən məni eşitmirsənsə, deməli qulağın yox, vicdanın yoxdur.",
+    "Telefonun səsi çıxır, amma dərsə zəng çatmır.",
+    "Mən də sənin yerində olsaydım, mənə qulaq asardım.",
+    "Ayaqqabını tapmadın deyə məktəbi buraxmaq olmaz.",
+    "Çay içmədən qərar vermə, bəlkə fikrin dəyişdi.",
+    "Gec gəlməyin səbəbi də 'trafik'dir, günah özündə deyil.",
+    "Kitab açmasan, həyat səni 'ctrl+alt+delete' edər.",
+    "Sən hələ uşaqsan, amma telefonda CEO kimisən.",
+    "Hər kəs yuxuya gedir, sən isə telefona gedirsən."
 ];
 
 jokeBtn.addEventListener('click', generateJoke);
